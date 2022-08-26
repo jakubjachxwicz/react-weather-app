@@ -5,10 +5,10 @@ import './styles/Header.css';
 
 function Header() {
     return (
-    <div>
-        <TiWeatherCloudy />
-        <h3>Pogoda</h3>
-        <TiWeatherSunny />
+    <div className='HeaderWrapper'>
+        <TiWeatherCloudy className='Header' />
+        <h3 className='Header'>Pogoda</h3>
+        <TiWeatherSunny className='Header' />
     </div>
   )
 }

@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 
 
-div
+.HeaderWrapper
 {
     display: flex;
     flex-direction: row;
@@ -10,21 +10,21 @@ div
     margin-top: 0.5rem;
 }
 
-h3
+h3.Header
 {
     font-size: 4rem;
     font-family: 'Roboto Mono', monospace;
     margin: 0 2rem;
 }
 
-svg
+svg.Header
 {
     font-size: 4rem;
 }
 
 @media (max-width: 424px)
 {
-    h3
+    h3.Header
     {
         margin: 0 0.5rem;
     }
@@ -32,7 +32,7 @@ svg
 
 @media (max-width: 374)
 {
-    h3
+    h3.Header
     {
         margin: 0;
     }

@@ -1,6 +1,15 @@
 function Home() {
+  const tempStyle = {
+    textAlign: "justify",
+    // display: "flex",
+    // flexDirection: "row",
+    // justifyContent: "center",
+    // alignItems: "center"
+  };
+  
+  
   return (
-    <div style={{ textAlign: "justify" }}>
+    <div style={tempStyle}>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed gravida maximus nulla, eget luctus diam vulputate sit amet. Quisque risus eros, tincidunt eu facilisis ut, ultricies et enim. Donec id pulvinar nisl. Phasellus scelerisque massa risus, mattis commodo ligula blandit non. Praesent vitae ultrices urna. Integer vestibulum nibh ac magna porttitor tempus. Mauris eget congue mauris. Morbi vitae efficitur ipsum, ut sagittis enim. Etiam placerat tortor diam, ac posuere erat vestibulum pretium. Aliquam rhoncus turpis sapien, non mollis ipsum cursus ac. Donec mollis arcu sed dapibus elementum. Aliquam finibus eu sapien at gravida. Duis leo ipsum, euismod eget vehicula non, facilisis a augue. Maecenas vitae tortor sit amet lectus placerat porttitor.
 
 Aenean rutrum, tortor vel ultricies rutrum, velit mauris faucibus sem, sed eleifend diam nunc non ipsum. Sed suscipit nulla et sem ultrices, ac interdum leo faucibus. Curabitur ante lectus, pretium mollis condimentum sed, tincidunt et sapien. Integer maximus sit amet lectus id bibendum. Phasellus semper massa vel pulvinar congue. Fusce et erat sit amet arcu interdum sagittis. Sed blandit rhoncus tempor. Nam vel mauris odio. Maecenas iaculis urna in placerat elementum.
