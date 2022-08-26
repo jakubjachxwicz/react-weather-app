@@ -44,6 +44,7 @@ const MainWrapper = styled.div`
     margin: 5rem auto;
     display: flex;
     flex-direction: row;
+    justify-content: center;
 
     @media (max-width: 1007px) 
     {

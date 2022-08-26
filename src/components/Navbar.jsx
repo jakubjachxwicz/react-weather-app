@@ -25,6 +25,7 @@ const Wrapper = styled.div`
     height: 60vh;
     justify-content: center;
     margin-left: 20px;
+    z-index: 420;
 
     svg
     {
