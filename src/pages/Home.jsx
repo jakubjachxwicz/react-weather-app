@@ -42,7 +42,7 @@ function Home() {
     useEffect(() => {
         if (weatherData.weather)
         {
-            console.log(weatherData);
+            // console.log(weatherData);
             // console.log(weatherData.weather.code);
             
             const code = weatherData.weather.code;

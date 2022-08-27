@@ -14,6 +14,9 @@ body
 body, html
 {
   max-width: 100vw;
+  background: #D3CCE3;
+  background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3);
+  background: linear-gradient(to right, #E9E4F0, #D3CCE3);
 }
 
 #root
