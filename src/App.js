@@ -13,8 +13,8 @@ function App() {
             <PageWrapper>
                 <Header />
                 <MainWrapper>
-                    <Navbar />
                     <BrowserRouter>
+                        <Navbar />
                         <Pages />
                     </BrowserRouter>
                 </MainWrapper>
@@ -51,6 +51,11 @@ const MainWrapper = styled.div`
         width: 90%;
         flex-direction: column;
         margin-top: 1rem; 
+    }
+
+    @media (min-width: 1141px)
+    {
+        width: 40%;
     }
 `;
 

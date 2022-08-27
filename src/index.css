@@ -11,6 +11,11 @@ body
   height: 100vh;
 }
 
+body, html
+{
+  max-width: 100vw;
+}
+
 #root
 {
   height: 100%;
