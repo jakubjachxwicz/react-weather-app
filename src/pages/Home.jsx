@@ -4,6 +4,7 @@ import { BsSunriseFill, BsSunsetFill } from 'react-icons/bs';
 import { HiRefresh } from 'react-icons/hi';
 import { Wrapper, CityWrapper, Grid, RefreshButton, Footer } from './../components/HomeComponents';
 import { Link } from 'react-router-dom';
+import { replaceDots } from '../functions';
 
 
 
@@ -73,17 +74,6 @@ function Home() {
     };
     
 
-    const replaceDots = (temperature) => {
-        if (temperature)
-        {
-            const temp = temperature.toString();
-        
-            if (temp.search('.') !== -1) return temp.replace('.', ',');
-            return temp;
-        }
-        else return '';
-    };
-
     const convertTime = (time, today, timezone) => {
         if (time)
         {
@@ -112,7 +102,7 @@ function Home() {
                 <div className='temperatureDisplay right'>{replaceDots(weatherData.app_temp)} &deg;C</div>
 
                 <div>Ciśnienie</div>
-                <div>{weatherData.pres} mb</div>
+                <div>{replaceDots(weatherData.pres)} mb</div>
 
                 <div>Zachmurzenie</div>
                 <div>{weatherData.clouds} %</div>
