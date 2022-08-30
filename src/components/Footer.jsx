@@ -6,7 +6,7 @@ function Footer() {
   return (
     <Wrapper>
         <p>Made by me</p>
-        <p>Used <a href={'https://www.weatherbit.io/api'}>Weatherbit.io</a> to deliver weather data</p>
+        <p>Used <a target="_blank" href={'https://www.weatherbit.io/api'}>Weatherbit.io</a> to deliver weather data</p>
     </Wrapper>
   )
 }
@@ -22,7 +22,11 @@ const Wrapper = styled.div`
     align-items: flex-end;
     justify-content: center;
     width: 100%;
-    /* bottom: 0; */
+
+    a
+    {
+      text-decoration: none;
+    }
 
     p
     {

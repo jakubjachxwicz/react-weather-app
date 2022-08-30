@@ -43,11 +43,7 @@ function Home() {
     useEffect(() => {
         if (weatherData.weather)
         {
-            // console.log(weatherData);
-            // console.log(weatherData.weather.code);
-            
             const code = weatherData.weather.code;
-            // const code = 750;
 
             if (code >= 200 && code < 300) setWeatherImage('/thunder.png');
             else if (code < 400) setWeatherImage('/drizzle.png');

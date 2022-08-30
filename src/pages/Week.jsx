@@ -19,11 +19,6 @@ function Week() {
         }
 
         fetchWeatherData();
-
-        //TEMPPPP
-        // const data = JSON.parse(tempdata);
-        // console.log(data);
-        // setWeatherData(data);
     }, []);
 
 

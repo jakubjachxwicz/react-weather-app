@@ -28,7 +28,6 @@ function App() {
 const mainStyle = {
     display: "flex",
     flexDirection: "column",
-    // width: "100vw",
     minHeight: "100%"
 };
 

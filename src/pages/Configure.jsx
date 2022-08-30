@@ -30,7 +30,6 @@ function Configure() {
         const api = await fetch(`https://api.weatherbit.io/v2.0/current?key=${process.env.REACT_APP_API_KEY}&lang=pl&city=${input}`);
         const data = await api.json();
 
-        // console.log(data);
         setSearchedcity(data.data[0]);
     };
 

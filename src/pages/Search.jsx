@@ -3,7 +3,6 @@ import { useState, useEffect } from 'react';
 import { Wrapper, DataWrapper, DateBar, Weather } from './../components/SearchComponents';
 import { Form } from './../components/ConfComponents';
 import { getWeekDay, formatDate, replaceDots, airQuality } from './../functions';
-import { todayTemp, weekTemp } from './tempdata';
 
 
 
@@ -24,8 +23,6 @@ function Search() {
     const formHandler = (e) => {
         e.preventDefault();
 
-        // console.log(input);
-
         setCity(input);
     };
 
@@ -41,8 +38,6 @@ function Search() {
 
             setWeatherToday(dataToday.data[0]);
             setWeatherWeekly(dataWeek);
-            // setWeatherToday(JSON.parse(todayTemp));
-            // setWeatherWeekly(JSON.parse(weekTemp));
         }
     };
 
