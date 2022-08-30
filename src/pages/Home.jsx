@@ -4,7 +4,7 @@ import { BsSunriseFill, BsSunsetFill } from 'react-icons/bs';
 import { HiRefresh } from 'react-icons/hi';
 import { Wrapper, CityWrapper, Grid, RefreshButton, Footer } from './../components/HomeComponents';
 import { Link } from 'react-router-dom';
-import { replaceDots } from '../functions';
+import { replaceDots, convertTime } from '../functions';
 
 
 
@@ -73,16 +73,6 @@ function Home() {
         setWeatherData(data.data[0]);
     };
     
-
-    const convertTime = (time, today, timezone) => {
-        if (time)
-        {
-            let date = `${today.substring(0, today.search(':'))} ${time} GMT`;
-            const d = new Date(date);
-
-            return d.toLocaleString("pl-PL", {timeZone: timezone, timeStyle: "short"});
-        } else return '';
-    };
 
     const refreshWeather = () => {
         Cookies.remove('sessionWeatherData');
