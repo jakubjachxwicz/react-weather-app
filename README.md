@@ -6,7 +6,7 @@ To get more complex info (such as chanse of rain, humidity, visibility, UV index
 <br><br>
 Technologies used in project: <i>React, JavaScript, Rest API, Styled Components</i>
 
-<br><br>
+<br>
 
 Aplikacja webowa napisana przy pomocy <b>React</b> używająca Rest API od [Weatherbit.io](https://www.weatherbit.io/) do wyświetlania informacji pogodowych.
 <br>
