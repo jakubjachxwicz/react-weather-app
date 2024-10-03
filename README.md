@@ -10,7 +10,7 @@ Technologies used in project: <i>React, JavaScript, Rest API, Styled Components<
 
 Aplikacja webowa napisana przy pomocy <b>React</b> używająca Rest API od [Weatherbit.io](https://www.weatherbit.io/) do wyświetlania informacji pogodowych.
 <br>
-Aktualna i tygodniowa prognoza (dla domyślnego wybranego miasta) jest uzyskiwana dzięki API i zapisywana lokalnie poprzez cookies. Poza stanem pogody aplikacja oferuje takie informacje jak: temperatura, ciśnienie powietrza, zachmurzenie, godzinę wschodu i zachodu słońca.
+Aktualna i tygodniowa prognoza (dla domyślnie wybranego miasta) jest uzyskiwana dzięki API i zapisywana lokalnie poprzez cookies. Poza stanem pogody aplikacja oferuje takie informacje jak: temperatura, ciśnienie powietrza, zachmurzenie, godzinę wschodu i zachodu słońca.
 <br>
 Po bardziej złożone dane (szansa opadów, wilgotność, widoczność, indeks UV) użytkownik może zajrzeć do odpowiedniej zakładki i wyszukać żądane miasto.
 <br><br>
