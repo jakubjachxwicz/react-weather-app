@@ -5,7 +5,7 @@ import styled from "styled-components";
 function Footer() {
   return (
     <Wrapper>
-        <p>Made by me</p>
+        <p>Made by Jakub Jachowicz</p>
         <p>Used <a target="_blank" href={'https://www.weatherbit.io/api'}>Weatherbit.io</a> to deliver weather data</p>
     </Wrapper>
   )
